@@ -1,7 +1,7 @@
 %define module	Spoon
 %define name	perl-%{module}
-%define version 0.23
-%define release %mkrel 4
+%define version 0.24
+%define release %mkrel 1
 %define _provides_exceptions perl(IO::All)
 
 Name:		%{name}
@@ -9,7 +9,8 @@ Version:	%{version}
 Release:	%{release}
 Summary:	A Spiffy Application Building Framework 
 URL:		http://search.cpan.org/dist/%{module}
-Source:		http://www.cpan.org/modules/by-module/Spoon/%{module}-%{version}.tar.bz2
+# no available category
+Source:     http://search.cpan.org/CPAN/authors/id/I/IN/INGY/%{module}-%{version}.tar.gz
 License:	GPL
 Group:		Development/Perl
 %if %{mdkversion} < 1010
