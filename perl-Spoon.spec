@@ -23,6 +23,7 @@ BuildRequires:  perl(Template)
 BuildRequires:  perl(Spiffy)
 BuildRequires:  perl(URI::Escape)
 BuildArch:	noarch
+BuildRoot:	%{_tmppath}/%{name}-%{version}
 
 %description
 Spoon is an Application Framework that is designed primarily for building
