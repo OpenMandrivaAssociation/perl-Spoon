@@ -1,7 +1,7 @@
 %define module	Spoon
 %define name	perl-%{module}
 %define version 0.24
-%define release %mkrel 4
+%define release %mkrel 5
 %define _provides_exceptions perl(IO::All)
 
 Name:		%{name}
