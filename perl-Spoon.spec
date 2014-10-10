@@ -8,7 +8,7 @@
 
 Name:		perl-%{module}
 Version:	0.24
-Release:	6
+Release:	7
 Summary:	A Spiffy Application Building Framework 
 URL:		http://search.cpan.org/dist/%{module}
 # no available category
