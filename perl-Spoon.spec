@@ -15,6 +15,7 @@ URL:		https://search.cpan.org/dist/%{module}
 Source:		http://search.cpan.org/CPAN/authors/id/I/IN/INGY/%{module}-%{version}.tar.gz
 License:	GPL
 Group:		Development/Perl
+BuildRequires:	make
 BuildRequires:	perl-devel
 BuildRequires:	perl(IO::All)
 BuildRequires:	perl(CGI)
